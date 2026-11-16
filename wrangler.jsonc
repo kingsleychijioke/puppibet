@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "puppibet",
+  "compatibility_date": "2025-09-02",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "main": "@tanstack/react-start/server-entry",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "puppibet-db",
+      "database_id": "4d4556dc-f3f1-4b3c-9655-4e0c4fc4c3bf",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
